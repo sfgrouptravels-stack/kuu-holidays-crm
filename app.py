@@ -11,18 +11,16 @@ st.set_page_config(page_title="KUU Holidays CRM", page_icon="✈️", layout="wi
 
 st.markdown("""
     <style>
-    /* HIDE STREAMLIT BRANDING, MENUS & MANAGE APP BUTTON */
+    /* HIDE STREAMLIT BRANDING, MENUS & FLOATING BADGES */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
-    
-    /* HIDE BOTTOM RIGHT WATERMARK LOGO & BADGES */
-    a[href^="https://streamlit.io/cloud"] {display: none !important;}
-    [data-testid="stDecoration"] {display: none !important;}
-    div[class^="viewerBadge"] {display: none !important;}
     .stDeployButton {display: none !important;}
     [data-testid="stToolbar"] {display: none !important;}
     [data-testid="stAppDeployButton"] {display: none !important;}
+    [data-testid="stStatusWidget"] {display: none !important; visibility: hidden !important;}
+    div[class*="viewerBadge"] {display: none !important; visibility: hidden !important;}
+    a[href*="streamlit.io"] {display: none !important;}
     
     /* CUSTOM STYLES */
     .main { background-color: #f4f6f9; }
