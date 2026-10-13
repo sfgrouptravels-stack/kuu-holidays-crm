@@ -11,6 +11,12 @@ st.set_page_config(page_title="KUU Holidays CRM", page_icon="✈️", layout="wi
 
 st.markdown("""
     <style>
+    /* HIDE STREAMLIT BRANDING & MENUS */
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    
+    /* CUSTOM STYLES */
     .main { background-color: #f4f6f9; }
     .summary-box { padding: 15px; border-radius: 8px; color: white; font-weight: bold; text-align: left; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
     .stButton>button { background-color: #0d47a1; color: white; border-radius: 5px; font-weight: bold; border: none; }
